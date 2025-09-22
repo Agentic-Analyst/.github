@@ -1,36 +1,104 @@
-# Vynn AI Proprietary License
+# Vynn AI Proprietary Software License
+
+**Version 1.0** | **Effective Date: January 1, 2025**
 
 Copyright (c) 2025 Vynn AI. All rights reserved.
 
-## License Grant
-Vynn AI grants you (the "Licensee") a limited, non-exclusive, non-transferable, and revocable license to install and use this software (the "Software") solely for internal, non-commercial purposes, and only in accordance with the documentation provided by Vynn AI.
+---
 
-## Restrictions
-The Licensee may **not**, without prior written consent from Vynn AI:
-- Use the Software for any **commercial purpose**, including but not limited to offering competing products or services.  
-- Copy, distribute, sublicense, rent, lease, loan, sell, or otherwise transfer the Software.  
-- Modify, adapt, reverse-engineer, decompile, or attempt to derive the source code of the Software.  
-- Remove, obscure, or alter any copyright, trademark, or other proprietary notices.  
+## 1. Definitions
 
-## Ownership
-The Software is licensed, not sold. All intellectual property rights in and to the Software remain the exclusive property of Vynn AI.
+- **"Software"** means the Vynn AI financial analysis platform, including all source code, object code, documentation, algorithms, models, and related materials.
+- **"Licensee"** or **"you"** means the individual or entity using the Software under this License.
+- **"Commercial Use"** means any use of the Software for commercial advantage, monetary compensation, or business purposes, including but not limited to offering competing products or services.
+- **"Non-Commercial Use"** means use for personal, educational, academic research, or evaluation purposes that does not involve Commercial Use.
 
-## Termination
-Vynn AI may terminate this license at any time if the Licensee breaches these terms. Upon termination, the Licensee must immediately cease using the Software and destroy all copies.
+## 2. License Grant
 
-## Disclaimer of Warranty
-The Software is provided "AS IS" without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+Subject to the terms and conditions of this License, Vynn AI grants you a limited, non-exclusive, non-transferable, and revocable license to:
 
-## Limitation of Liability
-In no event shall Vynn AI be liable for any damages, including incidental, consequential, or special damages, arising out of the use or inability to use the Software.
+- Install and use the Software solely for Non-Commercial Use
+- Access and evaluate the Software's functionality for legitimate research or educational purposes
+- Use the Software in accordance with the documentation provided by Vynn AI
 
-## Governing Law
-This License shall be governed by and construed in accordance with the laws of the State of Delaware, United States, without regard to conflict of law principles.
+## 3. Restrictions
+
+Without prior written consent from Vynn AI, you may **NOT**:
+
+- **Commercial Use**: Use the Software for any Commercial Use, including offering competing products, services, or consulting based on the Software
+- **Distribution**: Copy, distribute, sublicense, rent, lease, loan, sell, or otherwise transfer the Software or any portion thereof
+- **Modification**: Modify, adapt, create derivative works, reverse-engineer, decompile, disassemble, or attempt to derive the source code
+- **Circumvention**: Remove, disable, circumvent, or alter any security features, license enforcement mechanisms, or usage tracking
+- **Notices**: Remove, obscure, or alter any copyright, trademark, or other proprietary notices
+- **Benchmarking**: Publish or share performance benchmarks or comparative analyses without written permission
+
+## 4. Attribution Requirements
+
+Any permitted use of the Software must include proper attribution to Vynn AI, including:
+- Retention of all copyright and proprietary notices
+- Clear acknowledgment of Vynn AI as the source in any publications, presentations, or derivative research
+
+## 5. Data Privacy and Security
+
+- You are responsible for ensuring compliance with applicable data protection laws
+- Vynn AI does not access, store, or process any user data through the Software without explicit consent
+- You must implement appropriate security measures to protect any data processed using the Software
+
+## 6. Intellectual Property
+
+- The Software is licensed, not sold
+- All intellectual property rights, including patents, copyrights, trademarks, and trade secrets, remain exclusively with Vynn AI
+- This License does not grant any rights to Vynn AI trademarks or branding elements beyond necessary attribution
+
+## 7. Export Control Compliance
+
+You acknowledge that the Software may be subject to export control laws and regulations. You agree to comply with all applicable export control laws and will not export, re-export, or transfer the Software to prohibited countries, entities, or individuals.
+
+## 8. Termination
+
+- This License is effective until terminated
+- Vynn AI may terminate this License immediately upon notice if you breach any terms
+- You may terminate by ceasing all use and destroying all copies of the Software
+- Upon termination, all rights granted herein cease immediately, and you must destroy all copies in your possession
+
+## 9. Updates and Modifications
+
+- Vynn AI reserves the right to update this License with reasonable notice
+- Continued use of the Software after notice constitutes acceptance of the updated terms
+- Updates will be posted at the Software's distribution location
+
+## 10. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, OR RELIABILITY. VYNN AI DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR OPERATE WITHOUT INTERRUPTION.
+
+## 11. Limitation of Liability
+
+IN NO EVENT SHALL VYNN AI BE LIABLE FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+## 12. Indemnification
+
+You agree to indemnify, defend, and hold harmless Vynn AI from any claims, damages, losses, or expenses arising from your use of the Software in violation of this License or applicable law.
+
+## 13. Governing Law and Dispute Resolution
+
+- This License is governed by Delaware law, excluding conflict of law principles
+- Any disputes shall be resolved exclusively in the state or federal courts located in Delaware
+- The prevailing party in any dispute shall be entitled to reasonable attorneys' fees
+
+## 14. Severability
+
+If any provision of this License is found invalid or unenforceable, the remainder shall remain in full force and effect.
 
 ---
 
-For licensing inquiries, commercial usage, or partnership opportunities, please contact:
+## Contact Information
 
-**Vynn AI**  
-📧 zanwen.fu@duke.edu
-🌐 [https://vynnai.com](https://vynnai.com)
+For licensing inquiries, commercial usage agreements, partnership opportunities, or legal questions:
+
+**Vynn AI Legal Department**  
+📧 licensing@vynnai.com  
+📧 General inquiries: zanwen.fu@duke.edu  
+🌐 [https://vynnai.com](https://vynnai.com)  
+📍 Business inquiries: [Contact Form](https://vynnai.com/contact)
+
+*This License is effective as of the date first written above and supersedes all prior agreements relating to the Software.*
