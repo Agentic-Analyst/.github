@@ -1,6 +1,6 @@
-# Vynn AI
+# VYNN AI
 
-**Vynn AI** is an agentic financial analyst that combines multi-agent reasoning and real-time data retrieval to generate up-to-date financial analysis, which include building financial models, generating financial reports, analyzing financial news, and managing financial portfolios.
+**VYNN AI** is an agentic financial analyst that combines multi-agent reasoning and real-time data retrieval to generate up-to-date financial analysis, which include building financial models, generating financial reports, analyzing financial news, and managing financial portfolios.
 
 ## 🚀 Architecture
 - **Agentic Backend** – Orchestrates multiple reasoning agents for financial analysis and reporting.
