@@ -22,7 +22,7 @@
 
 Equity research at institutional firms takes 6–12 hours per ticker — an analyst manually pulls financials, builds a DCF model in Excel, reads through dozens of news articles, writes up a report, and formulates a recommendation. Most retail investors and small firms simply can't afford this.
 
-VYNN AI compresses that entire workflow into a single autonomous pipeline. You give it a ticker. It gives you a professional analyst report — complete with a 9-tab DCF model, sector-specific valuation, news-driven catalyst/risk analysis, and a validated recommendation with multi-horizon price targets.
+VYNN AI compresses that entire workflow into a single autonomous pipeline. You give it a ticker. It gives you a professional analyst report — complete with a 10-tab DCF model, sector-specific valuation, news-driven catalyst/risk analysis, and a validated recommendation with multi-horizon price targets.
 
 No prompt engineering. No manual data entry. No hallucinated numbers.
 
@@ -100,7 +100,7 @@ Built on **LangGraph's cyclical state graph** using a Supervisor-Worker architec
 Collects financial statements (income statement, balance sheet, cash flow) from Yahoo Finance via `yfinance`. Normalizes raw pandas DataFrames into clean, structured JSON suitable for downstream agents.
 
 #### 2. Financial Model Agent (DCF Builder)
-Generates a **9-tab Excel workbook** with live formulas:
+Generates a **10-tab Excel workbook** with live formulas:
 
 | Tab | Purpose |
 |-----|---------|
