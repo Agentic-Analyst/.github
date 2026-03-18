@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="../assets/vynnai-logo.jpg" alt="VYNN AI logo" width="120">
+
 # VYNN AI
 
 **Autonomous Financial Intelligence Platform**
