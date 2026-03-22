@@ -8,7 +8,6 @@
 
 *Institutional-quality equity research in under 7 minutes. 50,000+ lines of production code, built end-to-end by a single engineer.*
 
-[![Users](https://img.shields.io/badge/Pilot%20Users-~500-brightgreen)]()
 [![LOC](https://img.shields.io/badge/Platform-50%2C000%2B%20LOC-blue)]()
 [![Agents](https://img.shields.io/badge/Agents-5%20Specialized-orange)]()
 [![Latency](https://img.shields.io/badge/E2E%20Latency-%3C7%20min-red)]()
@@ -30,7 +29,6 @@ No prompt engineering. No manual data entry. No hallucinated numbers.
 
 **Key results:**
 - **<7 min** end-to-end for a comprehensive equity analysis
-- **~500 pilot users** in production on Hetzner Cloud
 - **50,000+** lines of production code across agent backend, API layer, and React frontend
 - **0.985** reproducibility score (CV 0.016) across repeated runs
 - **100%** intent recognition stability across paraphrased natural language queries
