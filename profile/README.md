@@ -9,7 +9,7 @@
 *Institutional-quality equity research in under 7 minutes. 50,000+ lines of production code, built end-to-end by a single engineer.*
 
 [![LOC](https://img.shields.io/badge/Platform-50%2C000%2B%20LOC-blue)]()
-[![Agents](https://img.shields.io/badge/Agents-5%20Specialized-orange)]()
+[![Agents](https://img.shields.io/badge/Agents-7%20Specialized-orange)]()
 [![Latency](https://img.shields.io/badge/E2E%20Latency-%3C7%20min-red)]()
 [![Live](https://img.shields.io/badge/Production-vynnai.com-black)](https://vynnai.com)
 
