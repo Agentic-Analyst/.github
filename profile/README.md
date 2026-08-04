@@ -352,7 +352,7 @@ vynn-ai/
 
 The product is **live and free** at **[app.vynnai.com](https://app.vynnai.com)** — sign in with Google or GitHub and ask it your first question. Name a stock in any language, ask a market question, or ask for a full valuation.
 
-The agent backend, [`stock-analyst`](https://github.com/Agentic-Analyst/stock-analyst), is open source (Apache 2.0) — read the agent loop, the LangGraph pipeline, and the 17-tool toolbox yourself.
+The agent backend, [`stock-analyst`](https://github.com/Agentic-Analyst/stock-analyst), is source-available (PolyForm Noncommercial 1.0.0) — read the agent loop, the LangGraph pipeline, and the 17-tool toolbox yourself. Commercial use requires a license from VYNN AI.
 
 **Email:** zanwen.fu@duke.edu
 **LinkedIn:** [linkedin.com/in/zanwenfu](https://linkedin.com/in/zanwenfu)
