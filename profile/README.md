@@ -113,6 +113,7 @@ Generates a **10-tab Excel workbook** with live formulas:
 | Raw Data | Normalized financial statements |
 | Keys Map | Standardized field mapping across data sources |
 | Assumptions | FY0 actuals + FY1–FY5 projections (LLM-inferred growth rates, margins, capex) |
+| LLM_Inferred | Hidden tab holding the model's raw inferred assumptions, so what the LLM proposed stays separable from what the engine accepted |
 | Historical Metrics | Computed ratios and trends from raw data |
 | 5-Year Projections | Revenue, EBITDA, FCF, working capital projections |
 | Perpetual Growth DCF | Terminal value via Gordon Growth Model |
@@ -121,6 +122,16 @@ Generates a **10-tab Excel workbook** with live formulas:
 | Summary Dashboard | Consolidated valuation output with dual-method comparison |
 
 A custom **Formula Evaluator** (1,293 lines) interprets Excel formula syntax programmatically, enabling downstream agents to query computed values without opening the workbook.
+
+#### Valuation integrity
+
+Two independent failures make a DCF worthless while leaving it arithmetically valid, and the engine defends against both.
+
+**Terminal value was assumed twice.** It dominates both valuation legs, and the two methods derived it differently — the perpetuity from WACC and growth, the exit method by asserting an EV/EBITDA multiple outright. When those implied different futures the legs diverged, and averaging them produced a number with no defensible meaning. The exit multiple is now reconciled against the multiple the perpetuity implies, so the legs converge by construction.
+
+**Some companies a DCF does not fit.** A pre-revenue business with negative free cash flow returns a negative intrinsic value under every assumption set, because discounted cash flow is the wrong instrument for it — not because the inputs need tuning. The spread across the three valuation legs is therefore classified (tight / moderate / wide / unreliable), and a leg returning a non-positive share price is reported as a **failed method**, not a low estimate. At the widest band the agent is instructed not to quote a fair value at all.
+
+The principle behind both: a confident number built from methods that contradict each other is the most misleading output this system can produce, precisely because it looks like a precise answer.
 
 **6 sector-specific DCF strategies**, auto-selected based on company classification:
 
@@ -361,12 +372,19 @@ The agent backend, [`stock-analyst`](https://github.com/Agentic-Analyst/stock-an
 
 ## Contact
 
-For inquiries, collaborations, or technical discussions:
+**VYNN AI**
+
+- **Product:** [app.vynnai.com](https://app.vynnai.com) · [vynnai.com](https://vynnai.com)
+- **LinkedIn:** [linkedin.com/company/vynnai](https://www.linkedin.com/company/vynnai)
+- **X:** [@vynn_ai](https://x.com/vynn_ai)
+
+**Zanwen Fu** — for inquiries, collaborations, or technical discussions
 
 - **Email:** zanwen.fu@duke.edu
 - **Website:** [zanwenfu.com](https://zanwenfu.com)
 - **GitHub:** [github.com/zanwenfu](https://github.com/zanwenfu)
 - **LinkedIn:** [linkedin.com/in/zanwenfu](https://linkedin.com/in/zanwenfu)
+- **X:** [@zanwenfu](https://x.com/zanwenfu)
 
 ---
 
