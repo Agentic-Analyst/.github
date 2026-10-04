@@ -2,12 +2,10 @@
 
 **Your personal, trustworthy AI financial analyst.** Bloomberg-grade equity research, built for retail. Ask it anything, in any language: one reasoning agent decides what to run (fundamentals, a live DCF, news intelligence, crypto, funds, options, portfolio risk) and answers with numbers computed in code, never guessed by a model. Free during early access at [app.vynnai.com](https://app.vynnai.com). Built end to end by a single engineer, [Zanwen Fu](https://zanwenfu.com).
 
-[Try VYNN](https://app.vynnai.com) ·
-[vynnai.com](https://vynnai.com) ·
-[Research records](https://vynnai.com/research) ·
-[Demo video](https://www.youtube.com/watch?v=aXR1ZIEdezs) ·
-[How it fits together](#how-it-fits-together) ·
-[Contact](#contact)
+[![Try VYNN](../assets/button-try.svg)](https://app.vynnai.com)&nbsp;
+[![Research records](../assets/button-research.svg)](https://vynnai.com/research)&nbsp;
+[![vynnai.com](../assets/button-website.svg)](https://vynnai.com)&nbsp;
+[![Contact](../assets/button-contact.svg)](#contact)
 
 [![Agent](https://img.shields.io/badge/Agent-20%20tools%2C%20one%20loop-8b6a2f?labelColor=0b1424)](https://github.com/Agentic-Analyst/stock-analyst)
 [![Speedup](https://img.shields.io/badge/Latency-%E2%88%9278.6%25%20parallel-8b6a2f?labelColor=0b1424)](#performance-benchmarks)
