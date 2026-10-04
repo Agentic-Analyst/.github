@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 776" width="1160" height="776" role="img" aria-labelledby="t d">
+<title id="t">VYNN AI: how the platform fits together</title>
+<desc id="d">You sign in to the app with Google or GitHub, or arrive as a guest from a question on vynnai.com, and ask in the chat. The API checks who is asking and starts a job: each analysis runs in its own container of the agent, pinned by image digest. The agent pulls published data, reasons with OpenAI or Anthropic, computes every number in code and checks it with its guardrails. The run&#x27;s report, workbook, sources and log land in the user&#x27;s folder. Progress streams to the chat, then the answer arrives with a cited PDF report and an Excel model, and is kept as a dated thesis on the dashboard. The API serves prices and company data from its cache and keeps theses, portfolios and conversations per user.</desc>
+<defs><marker id="head0" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0.8 L9,5 L0,9.2 z" fill="#334155"/></marker><marker id="head1" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0.8 L9,5 L0,9.2 z" fill="#94a3b8"/></marker><marker id="head2" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse"><path d="M0,0.8 L9,5 L0,9.2 z" fill="#a855f7"/></marker><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000000" flood-opacity="0.10"/></filter></defs>
+<rect x="6" y="6" width="1148" height="764" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="40.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="start" letter-spacing="1.6">ASK AND ANSWER</text>
+<rect x="24.0" y="74.0" width="180.0" height="148.0" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="40.0" y="104.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">You</text>
+<text x="40.0" y="127.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">any device, any</text>
+<text x="40.0" y="144.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">language, in the app</text>
+<text x="40.0" y="162.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">or from a question</text>
+<text x="40.0" y="179.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">on vynnai.com</text>
+<rect x="226.0" y="52.0" width="708.0" height="192.0" rx="14" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="246.0" y="83.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a" text-anchor="start">vynnai-web</text>
+<rect x="841.4" y="66.0" width="74.6" height="19.0" rx="9.5" fill="none" stroke="#6366f1" stroke-width="1.2"/>
+<text x="878.7" y="79.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#6366f1" text-anchor="middle" letter-spacing="0.9">REACT 18</text>
+<text x="352.6" y="83.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">the app at app.vynnai.com</text>
+<rect x="242.0" y="98.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.2"/>
+<text x="258.0" y="128.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Sign in</text>
+<text x="258.0" y="151.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">with Google or GitHub,</text>
+<text x="258.0" y="168.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">or as a guest from a</text>
+<text x="258.0" y="186.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">question on vynnai.com</text>
+<text x="258.0" y="210.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6366f1" text-anchor="start">no account needed</text>
+<rect x="472.7" y="98.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.2"/>
+<text x="488.7" y="128.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Chat</text>
+<text x="488.7" y="151.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">ask in plain words,</text>
+<text x="488.7" y="168.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">then watch the</text>
+<text x="488.7" y="186.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">analysis as it runs</text>
+<text x="488.7" y="210.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6366f1" text-anchor="start">live progress</text>
+<rect x="703.3" y="98.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.2"/>
+<text x="719.3" y="128.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Answer</text>
+<text x="719.3" y="151.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">the answer, a cited</text>
+<text x="719.3" y="168.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">PDF report and an</text>
+<text x="719.3" y="186.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">Excel model</text>
+<text x="719.3" y="210.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#6366f1" text-anchor="start">one set of numbers</text>
+<path d="M456.7,162.0 L472.7,162.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<path d="M687.3,162.0 L703.3,162.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<rect x="956.0" y="74.0" width="180.0" height="148.0" rx="14" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="972.0" y="104.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Dashboard</text>
+<text x="972.0" y="127.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">companies, funds,</text>
+<text x="972.0" y="144.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">crypto, odds and a</text>
+<text x="972.0" y="162.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">portfolio, priced live</text>
+<text x="972.0" y="206.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0284c7" text-anchor="start">dated theses</text>
+<path d="M204.0,150.0 L242.0,150.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="226.0" cy="150.0" r="11" fill="#0f172a"/>
+<text x="226.0" y="154.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<path d="M918.0,150.0 L956.0,150.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="934.0" cy="150.0" r="11" fill="#0f172a"/>
+<text x="934.0" y="154.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+<text x="24.0" y="292.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="start" letter-spacing="1.6">RUN AND RECORD</text>
+<rect x="24.0" y="326.0" width="180.0" height="148.0" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="40.0" y="356.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Storage</text>
+<text x="40.0" y="379.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">MongoDB: universe,</text>
+<text x="40.0" y="396.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">theses, portfolios,</text>
+<text x="40.0" y="414.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">articles</text>
+<text x="40.0" y="431.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">Redis: rate limits</text>
+<text x="40.0" y="449.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">and news feeds</text>
+<rect x="226.0" y="304.0" width="708.0" height="192.0" rx="14" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="246.0" y="335.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a" text-anchor="start">api-runner</text>
+<rect x="847.8" y="318.0" width="68.2" height="19.0" rx="9.5" fill="none" stroke="#10b981" stroke-width="1.2"/>
+<text x="881.9" y="331.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#10b981" text-anchor="middle" letter-spacing="0.9">FASTAPI</text>
+<text x="344.1" y="335.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">the control plane</text>
+<rect x="242.0" y="350.0" width="158.5" height="128.0" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.2"/>
+<text x="258.0" y="380.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Auth</text>
+<text x="258.0" y="403.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">sessions and guests;</text>
+<text x="258.0" y="420.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">every route checked</text>
+<text x="258.0" y="462.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#10b981" text-anchor="start">fails closed</text>
+<rect x="414.5" y="350.0" width="158.5" height="128.0" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.2"/>
+<text x="430.5" y="380.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Jobs</text>
+<text x="430.5" y="403.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">one container per</text>
+<text x="430.5" y="420.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">analysis, pinned</text>
+<text x="430.5" y="438.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">by image digest</text>
+<text x="430.5" y="462.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#10b981" text-anchor="start">reproducible</text>
+<rect x="587.0" y="350.0" width="158.5" height="128.0" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.2"/>
+<text x="603.0" y="380.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Market data</text>
+<text x="603.0" y="403.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">prices, profiles</text>
+<text x="603.0" y="420.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">and statements</text>
+<text x="603.0" y="438.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">from the cache</text>
+<text x="603.0" y="462.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#10b981" text-anchor="start">cache first</text>
+<rect x="759.5" y="350.0" width="158.5" height="128.0" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.2"/>
+<text x="775.5" y="380.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Records</text>
+<text x="775.5" y="403.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">theses, portfolios</text>
+<text x="775.5" y="420.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">and conversations,</text>
+<text x="775.5" y="438.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">each user&#x27;s own</text>
+<text x="775.5" y="462.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#10b981" text-anchor="start">per user</text>
+<rect x="956.0" y="326.0" width="180.0" height="148.0" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="972.0" y="356.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Run files</text>
+<text x="972.0" y="379.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">one folder per user</text>
+<text x="972.0" y="396.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">and run: report,</text>
+<text x="972.0" y="414.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">workbook, sources</text>
+<text x="972.0" y="431.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">and the log</text>
+<path d="M204.0,407.0 L242.0,407.0" fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head1)"/>
+<path d="M580.0,226.0 L580.0,276.0 L493.8,276.0 L493.8,304.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="580.0" cy="251.0" r="11" fill="#0f172a"/>
+<text x="580.0" y="255.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<text x="598.0" y="255.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">your question</text>
+<path d="M810.7,304.0 L810.7,226.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="810.7" cy="265.0" r="11" fill="#0f172a"/>
+<text x="810.7" y="269.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+<text x="828.7" y="269.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">progress, then the answer</text>
+<text x="24.0" y="544.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#94a3b8" text-anchor="start" letter-spacing="1.6">RESEARCH AND CHECK</text>
+<rect x="24.0" y="578.0" width="180.0" height="148.0" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="40.0" y="608.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Published data</text>
+<text x="40.0" y="631.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">Yahoo Finance, FRED</text>
+<text x="40.0" y="648.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">government yields</text>
+<text x="40.0" y="666.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">news search</text>
+<text x="40.0" y="683.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">analyst consensus</text>
+<rect x="226.0" y="556.0" width="708.0" height="192.0" rx="14" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="246.0" y="587.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a" text-anchor="start">stock-analyst</text>
+<rect x="823.1" y="570.0" width="92.9" height="19.0" rx="9.5" fill="none" stroke="#f59e0b" stroke-width="1.2"/>
+<text x="869.5" y="583.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#d97706" text-anchor="middle" letter-spacing="0.9">PYTHON 3.11</text>
+<text x="368.6" y="587.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">the agent, source-available</text>
+<rect x="242.0" y="602.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+<text x="258.0" y="632.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Reasoning agent</text>
+<text x="258.0" y="655.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">reads the question,</text>
+<text x="258.0" y="672.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">picks the tools it</text>
+<text x="258.0" y="690.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">needs, or none</text>
+<text x="258.0" y="714.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="start">20 tools</text>
+<rect x="472.7" y="602.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+<text x="488.7" y="632.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Full analysis</text>
+<text x="488.7" y="655.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">financials, a ten-tab</text>
+<text x="488.7" y="672.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">model, the news and</text>
+<text x="488.7" y="690.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">a cited report</text>
+<text x="488.7" y="714.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="start">about 2 min</text>
+<rect x="703.3" y="602.0" width="214.7" height="128.0" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+<text x="719.3" y="632.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Guardrails</text>
+<text x="719.3" y="655.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">code sets every number;</text>
+<text x="719.3" y="672.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">claims cite evidence;</text>
+<text x="719.3" y="690.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">gaps to analysts flagged</text>
+<text x="719.3" y="714.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#d97706" text-anchor="start">≥95% cited</text>
+<path d="M456.7,666.0 L472.7,666.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<path d="M687.3,666.0 L703.3,666.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<rect x="956.0" y="578.0" width="180.0" height="148.0" rx="14" fill="#faf5ff" stroke="#a855f7" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="972.0" y="608.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="start">Model providers</text>
+<text x="972.0" y="631.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">OpenAI, gpt-6-luna</text>
+<text x="972.0" y="648.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">by default, or</text>
+<text x="972.0" y="666.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.4" font-weight="400" fill="#475569" text-anchor="start">Anthropic</text>
+<text x="972.0" y="710.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#a855f7" text-anchor="start">prose, not numbers</text>
+<path d="M204.0,652.0 L242.0,652.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="226.0" cy="652.0" r="11" fill="#0f172a"/>
+<text x="226.0" y="656.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<path d="M934.0,652.0 L956.0,652.0" fill="none" stroke="#a855f7" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head2)"/>
+<path d="M493.8,478.0 L493.8,556.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="493.8" cy="517.0" r="11" fill="#0f172a"/>
+<text x="493.8" y="521.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<text x="511.8" y="521.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">one container per analysis</text>
+<path d="M880.0,556.0 L880.0,522.0 L1046.0,522.0 L1046.0,474.0" fill="none" stroke="#334155" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#head0)"/>
+<circle cx="963.0" cy="522.0" r="11" fill="#0f172a"/>
+<text x="963.0" y="526.2" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<text x="948.0" y="514.0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="end">report, workbook, log</text>
+</svg>
