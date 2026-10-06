@@ -1,8 +1,10 @@
+<a href="https://vynnai.com">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="../assets/banner.webp">
   <source type="image/avif" srcset="../assets/banner.avif">
   <img src="../assets/banner.webp" alt="VYNN AI, personal AI financial analyst. Know what you own. Ask about a company you own: VYNN builds the valuation model and the report in about two minutes, every number sourced. In the animation, the market's crowd settles into VYNN's valuation of Microsoft, traces back to the numbers it rests on, and becomes the price moving around fair value." width="100%">
 </picture>
+</a>
 
 **Your personal, trustworthy AI financial analyst.** Bloomberg-grade equity research, built for retail. Ask it anything, in any language: one reasoning agent decides what to run (fundamentals, a live DCF, news intelligence, crypto, funds, options, portfolio risk) and answers with numbers computed in code, never guessed by a model. Free during early access at [app.vynnai.com](https://app.vynnai.com). Built end to end by a single engineer, [Zanwen Fu](https://zanwenfu.com).
 
