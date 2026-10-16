@@ -36,6 +36,9 @@ No prompt engineering. No manual data entry. No hallucinated numbers.
 - **Nightly financial-accuracy regression** gates every release: agent valuations run against a golden dataset of 100 QQQ companies, and a release is blocked if any valuation drifts beyond threshold
 - **No terminal licenses**: prices, statements, macro data and news come from public APIs
 
+<a href="https://vynnai.com/#race"><img src="../assets/race-poster.webp" alt="The same request sent to VYNN and to Claude Opus 5.5 on 15 Oct 2026, side by side: Claude finishes a 7-tab model in 7 minutes 24 seconds, VYNN a 10-tab model with 626 formulas in 38 seconds. Real runs, time-lapse, approval waits not counted." width="100%"></a>
+<p align="center"><sub>The same two requests, sent to VYNN and to Claude (Opus 5.5) on 15 Oct 2026. The model: VYNN's 10 tabs and 626 formulas in 38 s, Claude's 7 tabs and 418 formulas in 7 min 24 s. The report: VYNN's 38 pages and its model in 2 min 44 s, Claude's 3,000 words in 5 min 16 s. Real runs in time-lapse; waits for approval not counted. <a href="https://vynnai.com/#race">Watch the film on vynnai.com</a>.</sub></p>
+
 ## How it fits together
 
 Three layers make one product: the app, the API that runs it, and the agent that does the research, all designed, built and deployed by a sole engineer. The numbers on the figure are the steps below.
